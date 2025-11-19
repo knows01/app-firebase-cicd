@@ -1,0 +1,41 @@
+[debug] [2025-11-19T19:05:36.671Z] ----------------------------------------------------------------------
+[debug] [2025-11-19T19:05:36.674Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Knows\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-11-19T19:05:36.674Z] CLI Version:   14.25.1
+[debug] [2025-11-19T19:05:36.674Z] Platform:      win32
+[debug] [2025-11-19T19:05:36.674Z] Node Version:  v22.18.0
+[debug] [2025-11-19T19:05:36.674Z] Time:          Wed Nov 19 2025 16:05:36 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2025-11-19T19:05:36.675Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Knows\Downloads\ATIVIDADES 2024 4BIMESTRE\front end\s27\app-firebase-cicd
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2025-11-19T19:05:44.001Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-11-19T19:05:44.001Z] > authorizing via signed-in user (angelomiguel.tec@gmail.com)
+[debug] [2025-11-19T19:05:44.002Z] Checked if tokens are valid: false, expires at: 1763516647152
+[debug] [2025-11-19T19:05:44.002Z] Checked if tokens are valid: false, expires at: 1763516647152
+[debug] [2025-11-19T19:05:44.003Z] > refreshing access token with scopes: []
+[debug] [2025-11-19T19:05:44.004Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-19T19:05:44.004Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-19T19:05:44.191Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-19T19:05:44.191Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-19T19:05:44.203Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-11-19T19:05:45.105Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-11-19T19:05:45.105Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
